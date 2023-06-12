@@ -5,6 +5,7 @@ export default {
     extend: {
       screens: {
         mm: '200px', // Add your custom breakpoint here
+        md2:'1250px',
       },
     },
   },

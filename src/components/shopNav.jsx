@@ -8,9 +8,9 @@ import Close from '../../public/shopPage/close.png'
 
 const shopNav = () => {
   return (
-    <nav className="bg-[#F7F8FA]  justify-between w-full items-center">
+    <nav className="justify-between w-full items-center bg-[#F7F8FA] border-b-2">
       <div className="sm:px-6 lg:px-8 gap-6">
-        <div className="flex justify-between h-24 ">
+        <div className="flex justify-between h-24">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center h-auto w-2/12">
             <div className="gap-5 inline-flex items-center">
@@ -85,7 +85,10 @@ const shopNav = () => {
                 </h1>
                 <span className="inline-flex">
                   {' '}
-                  <img className="h-12 w-12 sm:block hidden" src={Notification} />
+                  <img
+                    className="h-12 w-12 sm:block hidden"
+                    src={Notification}
+                  />
                   <img className="h-12 w-12 sm:block hidden" src={Close} />
                 </span>
               </div>
